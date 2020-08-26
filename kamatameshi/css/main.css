@@ -38,10 +38,11 @@ h4 {
 	font-weight: 700;
 }
 h5 {
-	font-size: 14px;
-	color: #2d3033;
+	font-size: 16px;
+	color: #C3331E;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 700;
+
 }
 .btn {
 	background-color: #C30D23;
@@ -112,10 +113,31 @@ ul li {
 .section-intro {
 	margin:5% 10% 12% 10%;
 	color: #636363;
-	font-size:14px;
+	font-size:16px;
 	line-height:21px;
 	font-weight: 300;
 	letter-spacing:1px;
+}
+
+.section-front {
+    padding: 8px 19px;
+    margin: 0;
+    color: #CE321A;
+    background: #FFFFFF;
+    border-top: solid 5px #CE321A;
+    border-bottom: solid 5px #CE321A;
+}
+
+.section-front span {
+	font-size: 30px;
+	font-weight: 700;
+
+}
+
+.name span {
+	font-size: 14px;
+	font-weight: 600;
+	
 }
 .icon {
 	font-size:33px;
@@ -460,8 +482,13 @@ ul li {
 }
 
 .badge-orange {
-  color: #fff;
-  background-color: #E6892D;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  color: #333333;
+  background-color: #EDEDEB;
+  font-weight: 300;
+  font-size: 11px;
 }
 
 /* ------------------------------------------------------------------------------
@@ -774,16 +801,16 @@ ul li {
 
 
 .title-border {
-font-size: 25px;
-font-weight: 600;
-color:#813F04;
+font-size: 20px;
+font-weight: 550;
+color:#C3331E;
 display: flex;
 align-items: center;
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
 .title-border:before,
 .title-border:after {
-border-top: thick double #D2B48C;
+border-top: thick double #E2E2E1;
 content: "";
 flex-grow: 1;
 }
