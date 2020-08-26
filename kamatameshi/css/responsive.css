@@ -147,7 +147,16 @@ font-size:18px;
 }
 .screens-text img {
 width:15%;
-}	
+}
+
+.section-title {
+	font-size: 30px;
+}
+	
+.section-front span {
+	font-size: 20px;
+	font-weight: 700;
+}
 }
 @media screen and (max-width: 320px) {
  .banner-text {
